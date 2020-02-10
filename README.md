@@ -53,12 +53,12 @@ Project is structured as the following:
 
 # Screenshots
 
-![Home](<img src="Screenshots/Screenshot01.png" height="600px" width="350px">)
-![Now Playing](<img src="Screenshots/Screenshot02.png" height="600px" width="350px">)
-![Popular](<img src="Screenshots/Screenshot03.png" height="600px" width="350px">)
-![Up Coming](<img src="Screenshots/Screenshot04.png" height="600px" width="350px">)
-![Search](<img src="Screenshots/Screenshot05.png" height="600px" width="350px">)
-![Search](<img src="Screenshots/Screenshot06.png" height="600px" width="350px">)
-![Landscape](<img src="Screenshots/Screenshot07.png" height="350px" width="700px">)
-![Movie Details](<img src="Screenshots/Screenshot08.png" height="600px" width="350px">)
-![Movie Details Landscape](<img src="Screenshots/Screenshot09.png" height="350px" width="700px">)
+<img src="Screenshots/Screenshot01.png" height="600px" width="350px">
+<img src="Screenshots/Screenshot02.png" height="600px" width="350px">
+<img src="Screenshots/Screenshot03.png" height="600px" width="350px">
+<img src="Screenshots/Screenshot04.png" height="600px" width="350px">
+<img src="Screenshots/Screenshot05.png" height="600px" width="350px">
+<img src="Screenshots/Screenshot06.png" height="600px" width="350px">
+<img src="Screenshots/Screenshot07.png" height="350px" width="700px">
+<img src="Screenshots/Screenshot08.png" height="600px" width="350px">
+<img src="Screenshots/Screenshot09.png" height="350px" width="700px">
