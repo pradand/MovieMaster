@@ -53,12 +53,12 @@ Project is structured as the following:
 
 # Screenshots
 
-![Home](Screenshots/Screenshot01.png){:height="250px" width="150px"}
-![Now Playing](Screenshots/Screenshot02.png){:height="250px" width="150px"}
-![Popular](Screenshots/Screenshot03.png){:height="250px" width="150px"}
-![Up Coming](Screenshots/Screenshot04.png){:height="250px" width="150px"}
-![Search](Screenshots/Screenshot05.png){:height="250px" width="150px"}
-![Search](Screenshots/Screenshot06.png){:height="250px" width="150px"}
-![Landscape](Screenshots/Screenshot07.png){:height="250px" width="150px"}
-![Movie Details](Screenshots/Screenshot08.png){:height="250px" width="150px"}
-![Movie Details Landscape](Screenshots/Screenshot09.png){:height="250px" width="150px"}
+<img src="Screenshots/Screenshot01.png" height="250px" width="150px">
+<img src="Screenshots/Screenshot02.png" height="250px" width="150px">
+<img src="Screenshots/Screenshot03.png" height="250px" width="150px">
+<img src="Screenshots/Screenshot04.png" height="250px" width="150px">
+<img src="Screenshots/Screenshot05.png" height="250px" width="150px">
+<img src="Screenshots/Screenshot06.png" height="250px" width="150px">
+<img src="Screenshots/Screenshot07.png" height="250px" width="150px">
+<img src="Screenshots/Screenshot08.png" height="250px" width="150px">
+<img src="Screenshots/Screenshot09.png" height="250px" width="150px">
