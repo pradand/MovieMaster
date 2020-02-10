@@ -50,3 +50,15 @@ Project is structured as the following:
     * Movies Details
   * Extras
   * Assets.xcassets
+
+# Screenshots
+
+![Home](Screenshots/Screenshot01.png)
+![Now Playing](Screenshots/Screenshot02.png)
+![Popular](Screenshots/Screenshot03.png)
+![Up Coming](Screenshots/Screenshot04.png)
+![Search](Screenshots/Screenshot05.png)
+![Search](Screenshots/Screenshot06.png)
+![Landscape](Screenshots/Screenshot07.png)
+![Movie Details](Screenshots/Screenshot08.png)
+![Movie Details Landscape](Screenshots/Screenshot09.png)

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search-->
+        <scene sceneID="NkY-dw-Hh0">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" id="A4D-Om-hNX" customClass="SearchViewController" customModule="MovieMaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Km2-ey-1Ta">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="Type a movie name ..." translatesAutoresizingMaskIntoConstraints="NO" id="q4O-Ob-boY" customClass="UISearchBarX" customModule="MovieMaster" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Rid-aL-rlL"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="doneButton" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7II-77-QVr">
+                                <rect key="frame" x="8" y="102" width="359" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="zof-Yh-BJH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="CTX-tj-1dR">
+                                <rect key="frame" x="0.0" y="142" width="375" height="476"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="feW-wa-i6S">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="AQf-b3-QR9" firstAttribute="trailing" secondItem="CTX-tj-1dR" secondAttribute="trailing" id="Hto-hY-TLZ"/>
+                            <constraint firstItem="CTX-tj-1dR" firstAttribute="leading" secondItem="AQf-b3-QR9" secondAttribute="leading" id="XPB-3N-aLg"/>
+                            <constraint firstItem="q4O-Ob-boY" firstAttribute="trailing" secondItem="AQf-b3-QR9" secondAttribute="trailing" id="Ypf-wf-wy1"/>
+                            <constraint firstItem="AQf-b3-QR9" firstAttribute="trailing" secondItem="7II-77-QVr" secondAttribute="trailing" constant="8" id="ZLM-IQ-yQO"/>
+                            <constraint firstItem="7II-77-QVr" firstAttribute="top" secondItem="q4O-Ob-boY" secondAttribute="bottom" constant="8" id="bED-Af-6Du"/>
+                            <constraint firstItem="q4O-Ob-boY" firstAttribute="top" secondItem="AQf-b3-QR9" secondAttribute="top" id="baQ-qG-Ahd"/>
+                            <constraint firstItem="AQf-b3-QR9" firstAttribute="bottom" secondItem="CTX-tj-1dR" secondAttribute="bottom" id="cHg-Dk-A6u"/>
+                            <constraint firstItem="7II-77-QVr" firstAttribute="leading" secondItem="AQf-b3-QR9" secondAttribute="leading" constant="8" id="p87-iw-TCa"/>
+                            <constraint firstItem="CTX-tj-1dR" firstAttribute="top" secondItem="7II-77-QVr" secondAttribute="bottom" id="pIR-lZ-VPJ"/>
+                            <constraint firstItem="q4O-Ob-boY" firstAttribute="leading" secondItem="AQf-b3-QR9" secondAttribute="leading" id="ufA-h1-rdk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AQf-b3-QR9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="Search" selectedImage="SearchSelected" id="Ot4-lS-HZr">
+                        <inset key="imageInsets" minX="6" minY="6" maxX="6" maxY="6"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="collectionView" destination="CTX-tj-1dR" id="3OX-io-K5h"/>
+                        <outlet property="displayInfoLabel" destination="7II-77-QVr" id="zeK-ve-u0V"/>
+                        <outlet property="searchBar" destination="q4O-Ob-boY" id="rxP-GO-lS4"/>
+                        <segue destination="NuE-M6-HGA" kind="show" identifier="MovieDetails" id="Ror-HJ-eJC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zYo-H9-ie9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1985" y="812"/>
+        </scene>
+        <!--MovieDetailsViewController-->
+        <scene sceneID="pmq-hJ-XKh">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MovieDetailsViewController" storyboardName="Main" referencedIdentifier="MovieDetailsViewController" id="NuE-M6-HGA" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aEj-On-Jqj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-349.60000000000002" y="1713.1934032983509"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Search" width="32" height="32"/>
+        <image name="SearchSelected" width="32" height="32"/>
+    </resources>
+</document>
