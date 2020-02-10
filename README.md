@@ -1,10 +1,10 @@
 ## MovieMaster
 
-MovieMaster is a movie app related which brings you movies that are playing at the moment, popular and up coming movies. The app has the following features:
+MovieMaster is a movie app related, which brings you movies that are playing at the moment, popular and up coming. The app has the following features:
 
 * Home tab brings you a mix of Now Playing, Popular and Up Coming movies having the ability of `Pull to Refresh`
-* Now Playing, Popular and Up Coming tabs have the ability of `Infinity scrolling` and tapping into the tab will take you back to the top
-* App is built to run in either `Portrait and Landscape` mode having custom adaptations
+* Now Playing, Popular and Up Coming tabs have the ability of `Infinity scrolling` and tapping into the tab icon will take you back to the top
+* App is `Portrait and Landscape` adaptative mode.
 
 ## Technical aspects
 
