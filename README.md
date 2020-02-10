@@ -53,12 +53,12 @@ Project is structured as the following:
 
 # Screenshots
 
-![Home](Screenshots/Screenshot01.png =150x250)
-![Now Playing](Screenshots/Screenshot02.png =150x250)
-![Popular](Screenshots/Screenshot03.png =150x250)
-![Up Coming](Screenshots/Screenshot04.png =150x250)
-![Search](Screenshots/Screenshot05.png =150x250)
-![Search](Screenshots/Screenshot06.png =150x250)
-![Landscape](Screenshots/Screenshot07.png =150x250)
-![Movie Details](Screenshots/Screenshot08.png =150x250)
-![Movie Details Landscape](Screenshots/Screenshot09.png =150x250)
+![Home](Screenshots/Screenshot01.png){:height="250px" width="150px"}
+![Now Playing](Screenshots/Screenshot02.png){:height="250px" width="150px"}
+![Popular](Screenshots/Screenshot03.png){:height="250px" width="150px"}
+![Up Coming](Screenshots/Screenshot04.png){:height="250px" width="150px"}
+![Search](Screenshots/Screenshot05.png){:height="250px" width="150px"}
+![Search](Screenshots/Screenshot06.png){:height="250px" width="150px"}
+![Landscape](Screenshots/Screenshot07.png){:height="250px" width="150px"}
+![Movie Details](Screenshots/Screenshot08.png){:height="250px" width="150px"}
+![Movie Details Landscape](Screenshots/Screenshot09.png){:height="250px" width="150px"}
