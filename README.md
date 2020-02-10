@@ -59,6 +59,6 @@ Project is structured as the following:
 <img src="Screenshots/Screenshot04.png" height="600px" width="350px">
 <img src="Screenshots/Screenshot05.png" height="600px" width="350px">
 <img src="Screenshots/Screenshot06.png" height="600px" width="350px">
-<img src="Screenshots/Screenshot07.png" height="350px" width="700px">
+<img src="Screenshots/Screenshot07.png" height="350px" width="600px">
 <img src="Screenshots/Screenshot08.png" height="600px" width="350px">
-<img src="Screenshots/Screenshot09.png" height="350px" width="700px">
+<img src="Screenshots/Screenshot09.png" height="350px" width="600px">
