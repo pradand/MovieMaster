@@ -53,12 +53,8 @@ Project is structured as the following:
 
 ## Screenshots
 
-<img src="Screenshots/Screenshot01.png?raw=true" width="350px">
-<img src="Screenshots/Screenshot02.png?raw=true" width="350px">
-<img src="Screenshots/Screenshot03.png?raw=true" width="350px">
-<img src="Screenshots/Screenshot04.png?raw=true" width="350px">
-<img src="Screenshots/Screenshot05.png?raw=true" width="350px">
-<img src="Screenshots/Screenshot06.png?raw=true" width="350px">
-<img src="Screenshots/Screenshot07.png?raw=true" width="600px">
-<img src="Screenshots/Screenshot08.png?raw=true" width="350px">
+<img src="Screenshots/Screenshot01.png?raw=true" width="350px"><img src="Screenshots/Screenshot02.png?raw=true" width="350px">
+<img src="Screenshots/Screenshot03.png?raw=true" width="350px"><img src="Screenshots/Screenshot04.png?raw=true" width="350px">
+<img src="Screenshots/Screenshot05.png?raw=true" width="350px"><img src="Screenshots/Screenshot06.png?raw=true" width="350px">
+<img src="Screenshots/Screenshot07.png?raw=true" width="600px"><img src="Screenshots/Screenshot08.png?raw=true" width="350px">
 <img src="Screenshots/Screenshot09.png?raw=true" width="600px">
